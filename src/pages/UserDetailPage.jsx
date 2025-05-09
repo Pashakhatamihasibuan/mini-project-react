@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import { getUser } from "../api/reqres";
+import { getUser } from "../api/Reqres";
 
 const UserDetail = () => {
   const { id } = useParams();
