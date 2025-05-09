@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { getUsers } from "../api/reqres";
+import { getUsers } from "../api/Reqres";
 import Navbar from "../components/home/Navbar";
 import UserCard from "../components/home/UserCard";
 import Pagination from "../components/home/Pagination";
